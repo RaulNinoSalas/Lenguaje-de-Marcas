@@ -1,0 +1,150 @@
+{
+	"preguntes": {
+		"parsererror": {
+			"h3": [
+				"This page contains the following errors:",
+				"Below is a rendering of the page up to the first error."
+			],
+			"div": {
+				"_style": "font-family:monospace;font-size:12px",
+				"__text": "error on line 105 at column 12: Extra content at the end of the document\n"
+			},
+			"_style": "display: block; white-space: pre; border: 2px solid #c77; padding: 0 1em 0 1em; margin: 1em; background-color: #fdd; color: black"
+		},
+		"question": [
+			{
+				"type": "text",
+				"title": "¿Que ciclista campeón y condenado por dopping dijo \"El sufrimiento y el dolor son termporales. Rendirse es para siempre.\"?",
+				"answer": "Lance Amstrong",
+				"_class": "pregunta"
+			},
+			{
+				"type": "text",
+				"title": "¿Que leyenda del baloncesto y ganador de 6 anillos dijo: \"He fallado una y otra vez en mi vida, por eso he conseguido el el éxito.\"?",
+				"answer": "Michael Jordan",
+				"_id": "pregunta"
+			},
+			{
+				"type": "select",
+				"title": "¿Que futbolista dijo \"Gasté mucho dinero en coches, alcohol y mujeres. El resto lo he malgastado\"?",
+				"option": [
+					"George Best",
+					"Karim Benzema",
+					"Carles Puyol",
+					"Mohammad Ali"
+				],
+				"answer": "1",
+				"_id": "pregunta"
+			},
+			{
+				"type": "select",
+				"title": "\"Si quieres ser el mejor, tienes que hacer cosas que otras personas no estan dispuestas a hacer\"¿En que categorias olimpicas de natacion gano Michael Phelps?",
+				"option": [
+					"200m y 400m cuatro estilos",
+					"100m y 200m mariposa",
+					"Gano 28 medallas olimpicas pero no en natación",
+					"Era un pringado y no gano nada"
+				],
+				"answer": [
+					"1",
+					"2",
+					"3"
+				],
+				"_id": "pregunta"
+			},
+			{
+				"type": "select multiple",
+				"title": "“El ochomil más difícil, sin duda, fue superar mi depresión”¿Que meritos realizo Edurne Pasaban en su carrera como alpinista?",
+				"option": [
+					"Subir 14 ochomiles",
+					"Subir las escaleras de su casa",
+					"Subir al Puig Major",
+					"Ser la primera mujer en conseguir subir todos los ochomiles del mundo"
+				],
+				"answer": [
+					"1",
+					"4"
+				],
+				"_id": "pregunta"
+			},
+			{
+				"type": "select multiple",
+				"title": "\"Algunas personas quieren que ocurra algo, otras sueñan con que pasara, otras hacen que sucedan\".¿En que deportes de manera profesional participo esta leyenda del deporte?",
+				"option": [
+					"Baloncesto",
+					"Bosbleigh",
+					"Beisból",
+					"Ping pong"
+				],
+				"answer": [
+					"1",
+					"3"
+				],
+				"_id": "pregunta"
+			},
+			{
+				"type": "checkbox",
+				"title": "\"No se consigue nada sin esfuerzo, y lo que se consigue sin esfuerzo, ni lo aprendes, ni lo valoras\"¿Que campeonatos gano el golfista Seve Ballesteros?",
+				"option": [
+					"The masters",
+					"U.S. Open",
+					"Champions League",
+					"Ninguno"
+				],
+				"answer": [
+					"1",
+					"2"
+				],
+				"_id": "pregunta"
+			},
+			{
+				"type": "checkbox",
+				"title": "\"Si quieren pelear conmigo, tienen que ganarselo\"¿En que categorias ha sido campeon Floyd Jr. Maywheter?",
+				"option": [
+					"Welter",
+					"Superwelter",
+					"Semipesado",
+					"Pesadoentero"
+				],
+				"answer": [
+					"1",
+					"2"
+				],
+				"_id": "pregunta"
+			},
+			{
+				"type": "radio",
+				"title": "\"La perfeccion no es algo permamenente, solo un instante\"¿Que hitos consiguio en la gimnasia Nadia Comaneci?",
+				"option": [
+					"5 oros olimpicos",
+					"Puntuacion de 10 en su ejercicio",
+					"Ninguna",
+					"Doblarse como una visagra"
+				],
+				"answer": [
+					"1",
+					"2"
+				],
+				"_id": "pregunta"
+			},
+			{
+				"type": "radio",
+				"title": "\"Creo que la suerte no cae solo en los valientes, sino tambien en los que creen en ella\"¿Que campeonatos de Grand Slams ha ganado este tenista? ",
+				"option": [
+					"Open de Australia",
+					"Wimbledon",
+					"Open de Estados Unidos",
+					"Roland Garros",
+					"La Copa del Rey"
+				],
+				"answer": [
+					"1",
+					"2",
+					"3",
+					"4"
+				],
+				"_id": "pregunta"
+			}
+		]
+	}
+}

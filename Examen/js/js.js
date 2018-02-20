@@ -1,7 +1,7 @@
 var menuAct="info";
 var menuAnt;
 
-//al cargar por completo la página
+//al cargar por completo la página...
 window.onload = function(){
 
 	//Seleccion del menu
@@ -11,11 +11,11 @@ window.onload = function(){
 	}
 	document.getElementById("test").onclick = function(){
 		borrarTodo();
-		mostrarTest();
+		mostrarUbi();
 	}
 	document.getElementById("cont").onclick = function(){
 		borrarTodo();
-		mostrarCont();
+		mostrarExam();
 	}
 
 }
@@ -27,12 +27,12 @@ function mostrarInfo(){
 	document.getElementById("infoD").style.display="block";
 }
 
-function mostrarCont(){
+function mostrarUbi(){
 	document.getElementById("test").style.textDecoration="underline";
 	document.getElementById("testD").style.display="block";
 }
 
-function mostrarTest(){
+function mostrarExam(){
 	document.getElementById("cont").style.textDecoration="underline";
 	document.getElementById("contD").style.display="block";
 }
@@ -44,3 +44,4 @@ function borrarTodo(){
 	document.getElementById("infoD").style.display="none";
 	document.getElementById("testD").style.display="none";
 	document.getElementById("contD").style.display="none";
+}

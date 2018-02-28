@@ -1,18 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<questions>
- <question id="q001">
-    <type>text</type>
-    <title>¿Que ciclista campeón y condenado por dopping dijo "El sufrimiento y el dolor son termporales. Rendirse es para siempre."?</title>
-    <answer>Lance Amstrong</answer>
-  </question>
-    
-  <question id="q002">
-    <type>text</type>
-    <title>¿Que leyenda del baloncesto y ganador de 6 anillos dijo: "He fallado una y otra vez en mi vida, por eso he conseguido el el éxito."?</title>
-    <answer>Michael Jordan</answer>
-  </question>
-
-  <question id="q003">
+<questions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="preguntas.xsd">
+<question id="q001">
     <type>select</type>
     <title>¿Que futbolista dijo "Gasté mucho dinero en coches, alcohol y mujeres. El resto lo he malgastado"?</title>
     <option>George Best</option>
@@ -20,10 +7,9 @@
     <option>Carles Puyol</option>
     <option>Mohammad Ali</option>
     <answer>1</answer>
-  </question>
-    
-  <question id="q004">
-    <type>select</type>
+</question>
+<question id="q002">
+<type>select</type>
     <title>"Si quieres ser el mejor, tienes que hacer cosas que otras personas no estan dispuestas a hacer"¿En que categorias olimpicas de natacion gano Michael Phelps?</title>
     <option>200m y 400m cuatro estilos</option>
     <option>100m y 200m mariposa</option>
@@ -32,9 +18,9 @@
     <answer>1</answer>
     <answer>2</answer>
     <answer>3</answer>
-  </question>
-    
- <question id="q005">
+</question>
+<question id="q003">
+<type>multiple</type>
     <type>select multiple</type>
     <title>“El ochomil más difícil, sin duda, fue superar mi depresión”¿Que meritos realizo Edurne Pasaban en su carrera como alpinista?</title>
     <option>Subir 14 ochomiles</option>
@@ -43,9 +29,9 @@
     <option>Ser la primera mujer en conseguir subir todos los ochomiles del mundo</option>
     <answer>1</answer>
     <answer>4</answer>
-  </question>
-    
-  <question id="q006">
+</question>
+<question id="q004">
+<type>multiple</type>
     <type>select multiple</type>
     <title>"Algunas personas quieren que ocurra algo, otras sueñan con que pasara, otras hacen que sucedan".¿En que deportes de manera profesional participo esta leyenda del deporte?</title>
     <option>Baloncesto</option>
@@ -54,31 +40,19 @@
     <option>Ping pong</option>
     <answer>1</answer>
     <answer>3</answer>
-  </question>
-
-  <question id="q007">
-    <type>checkbox</type>
-    <title>"No se consigue nada sin esfuerzo, y lo que se consigue sin esfuerzo, ni lo aprendes, ni lo valoras"¿Que campeonatos gano el golfista Seve Ballesteros?</title>
-    <option>The masters</option>
-    <option>U.S. Open</option>
-    <option>Champions League</option>
-    <option>Ninguno</option>
-    <answer>1</answer>
-    <answer>2</answer>
-  </question>
-
-  <question id="q008">
-    <type>checkbox</type>
-    <title>"Si quieren pelear conmigo, tienen que ganarselo"¿En que categorias ha sido campeon Floyd Jr. Maywheter?</title>
-    <option>Welter</option>
-    <option>Superwelter</option>
-    <option>Semipesado</option>
-    <option>Pesadoentero</option>
-    <answer>1</answer>
-    <answer>2</answer>
-  </question>
-
-  <question id="q009">
+</question>
+<question id="q005">
+<type>text</type>
+    <type>text</type>
+    <title>¿Que leyenda del baloncesto y ganador de 6 anillos dijo: "He fallado una y otra vez en mi vida, por eso he conseguido el el éxito."?</title>
+    <answer>Michael Jordan</answer>
+</question>
+<question id="q006">
+    <type>text</type>
+    <title>¿Que ciclista campeón y condenado por dopping dijo "El sufrimiento y el dolor son termporales. Rendirse es para siempre."?</title>
+    <answer>Lance Amstrong</answer>
+</question>
+<question id="q007">
     <type>radio</type>
     <title>"La perfeccion no es algo permamenente, solo un instante"¿Que hitos consiguio en la gimnasia Nadia Comaneci?</title>
     <option>5 oros olimpicos</option>
@@ -87,9 +61,8 @@
     <option>Doblarse como una visagra</option>
     <answer>1</answer>
     <answer>2</answer>
-  </question>
-
-  <question id="q010">
+</question>
+<question id="q008">
     <type>radio</type>
     <title>"Creo que la suerte no cae solo en los valientes, sino tambien en los que creen en ella"¿Que campeonatos de Grand Slams ha ganado este tenista? </title>
     <option>Open de Australia</option>
@@ -101,5 +74,26 @@
     <answer>2</answer>
     <answer>3</answer>
     <answer>4</answer>
-  </question>
+</question>
+<question id="q009">
+<type>checkbox</type>
+    <type>checkbox</type>
+    <title>"No se consigue nada sin esfuerzo, y lo que se consigue sin esfuerzo, ni lo aprendes, ni lo valoras"¿Que campeonatos gano el golfista Seve Ballesteros?</title>
+    <option>The masters</option>
+    <option>U.S. Open</option>
+    <option>Champions League</option>
+    <option>Ninguno</option>
+    <answer>1</answer>
+    <answer>2</answer>
+</question>
+<question id="q010">
+<type>checkbox</type>
+    <title>"Si quieren pelear conmigo, tienen que ganarselo"¿En que categorias ha sido campeon Floyd Jr. Maywheter?</title>
+    <option>Welter</option>
+    <option>Superwelter</option>
+    <option>Semipesado</option>
+    <option>Pesadoentero</option>
+    <answer>1</answer>
+    <answer>2</answer>
+</question>
 </questions>

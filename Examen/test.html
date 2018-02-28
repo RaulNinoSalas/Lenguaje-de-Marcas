@@ -2,97 +2,89 @@
 <html>
 
 <head>
-	<title>TEST</title>
-	<meta charset="UTF-8">
-	<meta name="description" content="Web de la Universidad de Jar-Bar">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel='stylesheet' media='screen and (min-width: 721px)' href='css/rtest.css'>
+    <title>Examen Universidad de Jar-Bar</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Test de alto nivel">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' media='screen and (min-width: 721px)' href='css/rtest.css'>
     <link rel='stylesheet' media='screen and (max-width: 720px)' href='css/stest.css'>
-    <link href="https://fonts.googleapis.com/css?family=News+Cycle" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Spectral+SC" rel="stylesheet">
+    <script src="js/jstest.js"></script>
 </head>
+
 <body>
-    <div id="menu">
-        <img id="logo" src="img/logo.png" alt"Universidad de">
-        <h1>TEST</h1>
-        <form id='myform'>
-        <br>
-        <h4>"Gasté mucho dinero en coches, alcohol y mujeres. El resto lo he malgastado"</h4>
-        <select id="r1" name="respuesta1">
-            <br>
-            <option value="4">Carles Puyol</option>
-        </select>
-            <br>
-            <br>
-            <h4>"He fallado una y otra vez en mi vida, por eso he conseguido el el éxito.</h4>
-        <select id="r2" name="respuesta2">
-            <br>   
-            <option value="1">Venus Williams</option>
-        </select>
-            <br>
-            <br>
-        <h4>¿En que deporte fue campeón el deportista que dijo "El sufrimiento y el dolor son termporales. Rendirse es para siempre."?</h4>
-        <id="r3" name="respuesta3">
-            <br>
-            <input id="1" type="radio" value="1">
-            <label for="C">Ciclismo</label><br/>T
+    <div id="logo">
+        <img id="logoimg" src="img/logo.png" alt="=======">
+    </div>
+    <form id='myform'>
+        <h3>.</h3>
+        <input type='text'>
         <br>
         <br>
-        <h4>"Creo que la suerte no cae solo en los valientes, sino tambien en los que creen en ella"</h4>
-        <select id="r4" name="respuesta4">
-            <br>
-            <option value="1" selected>Arancha Sanchez Vicario</option>
 
+        <h3>.</h3>
+        <input type='text'>
+        <br>
+        <br>
+
+        <h3>.</h3>
+        <select>
+            <option selected value="-1" disabled>Selecciona una...</option>
         </select>
         <br>
         <br>
-        <h4>"Si quieres ser el mejor, tienes que hacer cosas que otras personas no estan dispuestas a hacer"¿En que categorias olimpicas de natacion gano la persona que dijo estas frase?</h4>
-        <select id="r5" name="respuesta5" multiple>
-            <option value="1" selected>200m y 400m cuatro estilos</option>
 
-          </select>
-        <br>
-        <br>
-        <h4>"Algunas personas quieren que ocurra algo, otras sueñan con que pasara, otras hacen que sucedan".¿En que deportes de manera profesional participo esta leyenda del deporte?</h4>
-        <id="r6" name="respuesta6">
-        <input type="checkbox" id="r" value="1">
-        <label for="r">Baloncesto</label><br/>
-
-        <br>
-        <br>
-        <h4>"No se consigue nada sin esfuerzo, y lo que se consigue sin esfuerzo, ni lo aprendes, ni lo valoras"¿Que campeonatos gano este gran deportista español?</h4>
-        <select id="r7" name="respuesta7" multiple>
-            <option value="1" selected>The Masters</option>
-
+        <h3>.</h3>
+        <select>
+            <option selected value="-1" disabled>Selecciona una...</option>
         </select>
         <br>
         <br>
-        <h4>"Si quieren pelear conmigo, tienen que ganarselo"¿En que categorias ha sido campeon este fanfarron?</h4>
-        <select id="r8" name="respuesta8" multiple>
-            <option value="1" selected>Welter</option>
 
+        <h3>.</h3>
+        <select multiple>
+            <option value="-1" disabled>Selecciona al menos una...</option>
         </select>
         <br>
         <br>
-        <h4>"La perfeccion no es algo permamenente, solo un instante"¿Que hitos consiguio esta campeona?</h4>
-        <id="r9" name="respuesta9"></id>
-        <input type="checkbox" id="1" value="1">
-        <label for="r">5 oros olimpicos</label><br/>
 
-        <br>
-        <br>
-        <h4>"El ascensor hacia el exito esta fuera de servicio; tienes que subir las escaleras poco a poco"¿Que deportista española, aun en activo, dijo esta frase?</h4>
-        <select id="r10" name="respuesta10">
-            <br>
-            <option value="1" selected>Edurne Pasaban</option>
+        <h3>.</h3>
+        <select multiple>
+            <option value="-1" disabled>Selecciona al menos una...</option>
         </select>
         <br>
         <br>
-        <div id="corregir">
-			<input type='submit' value='Corregir'>
+        <h3>.</h3>
+        <div class='checkboxDiv'></div>
+        <br>
+
+        <h3>.</h3>
+        <div class='checkboxDiv'></div>
+        <br>
+
+
+        <h3>.</h3>
+        <div class='radioDiv'></div>
+        <br>
+
+        <h3>.</h3>
+        <div class='radioDiv'></div>
+        <br>
+
+
+        <div id="correccion">
+            <input type='submit' value='Corregir'>
         </div>
-        </form>
-        <br>
-        <div id="nota">
-            <h3 id="notaT">.</h3>
-            <div id='resD'></div>
-        </div>
+    </form>
+
+    <div id="notaFinal">
+        <h3 id="notaza">.</h3>
+        <div id='resultadosDiv'></div>
+    </div>
+    <div id='cronometro'>
+        <p>Tiempo Restante</p>
+        <p id="timer">:</p>
+    </div>
+</body>
+
+</html>

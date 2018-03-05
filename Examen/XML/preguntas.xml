@@ -12,12 +12,11 @@
 <type>select</type>
     <title>"Si quieres ser el mejor, tienes que hacer cosas que otras personas no estan dispuestas a hacer"¿En que categorias olimpicas de natacion gano Michael Phelps?</title>
     <option>200m y 400m cuatro estilos</option>
-    <option>100m y 200m mariposa</option>
-    <option>Gano 28 medallas olimpicas pero no en natación</option>
+    <option>150m y 300m mariposa</option>
+    <option>Gano 25 medallas olimpicas pero no en natación</option>
     <option>Era un pringado y no gano nada</option>
     <answer>1</answer>
-    <answer>2</answer>
-    <answer>3</answer>
+   
 </question>
 <question id="q003">
 <type>multiple</type>

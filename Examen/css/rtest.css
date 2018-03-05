@@ -27,10 +27,6 @@ form {
 	border: 2px #24b4ee solid;
 	border-radius: 4px;
 }
-h4 {
-	font-size: 15;
-	color: #946a1f;
-}
 
 input,
 select {
@@ -50,12 +46,12 @@ input[type=submit] {
 
 input[type=checkbox] {
 	width: 5%;
-	zoom: 1.5
+	zoom: 1.5;
 }
 
 input[type=radio] {
 	width: 5%;
-	zoom: 1.25
+	zoom: 1.25;
 }
 
 select,

@@ -1,111 +1,125 @@
-body,html{
-    margin:0px;
-    font-family: 'News Cycle', sans-serif;
-    font-size:4vw;
-    background-color:#f3d478;
-}
-body{
-    width:90%;
-    padding-left:5%;
-    padding-right:5%
+body,
+html {
+	margin: 0px;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 4vw;
+	background-color: #f3d478;
 }
 
-#logo{
+body {
+	width: 90%;
+	padding-left: 5%;
+	padding-right: 5%
+}
+#logo {
     text-align: center;
-    width: 10%;
+    width: 60%;
     height: 100%;
-    padding: 2%;
+    padding: 10%;
     background-color: #f3d478;
 }
-#logoimg{
-    max-width: 90%;
+
+#logoimg {
+	max-width: 90%;
 }
 
-input,select{width:80%}
-
-form{
-    background-color:#eee3a9;
-    padding:1%;
+form {
+	background-color: #eee3a9;
+	padding: 3%
 }
 
-h3{
-    font-size:5.5vw;
-    color:#946a1f;
-    margin: 1% 0%;
+input,
+select {
+	width: 80%
 }
 
-input[type=submit]{margin:auto;}
-
-input[type=checkbox]{width:5%;zoom:1.5}
-
-input[type=radio]{width:5%;zoom:1.5}
-
-form{background-color:#eee3a9;padding:3%}
-
-select, input[type=text] {
-    padding: 0.5%;
-    border: 1px #24b4ee solid;
-    border-radius: 4px;
-    background-color: #ecf191;
-    color: #ec1515;
-    font-size: 4vw;
+h3 {
+	font-size: 5.5vw;
+	color: #946a1f;
+	margin: 1% 0%;
 }
 
-
-label{
-    color: #ec1515;
-    font-size: 4vw;
+input[type=submit] {
+	margin: auto;
 }
 
-select:focus,input[type=text]:focus{
-    border-color:#ec1515;
+input[type=checkbox] {
+	width: 5%;
+	zoom: 1.5
+}
+
+input[type=radio] {
+	width: 5%;
+	zoom: 1.5
 }
 
 
-#cronometro{
-    position: fixed;
-    top: 7.5%;
-    right: 0px;
-    background-color: royalblue;
-    font-weight: bold;
+select,
+input[type=text] {
+	padding: 0.5%;
+	border: 1px #24b4ee solid;
+	border-radius: 4px;
+	background-color: #ecf191;
+	color: #ec1515;
 	font-size: 4vw;
-    text-align: center;
-    color: lightcyan;
-    padding: 1%;
-    border: 2px deepskyblue solid;
-    border-radius: 4px;
-    margin:0.5%;
-    overflow: hidden;  
-    opacity: 0.6; 
 }
 
-#cronometro p{
-    margin: 0;
+label {
+	color: #ec1515;
+	font-size: 4vw;
 }
 
-input[type=submit]{
-    width: 50%;
-    padding: 2% 0%;
-    border: 1px #24b4ee solid;
-    border-radius: 4px;
-    background-color: #f2eebb;
-    color: #ec1515;
-    font-size: 5vw;
-    text-align: center}
-
-#corregir{text-align: center}
-
-
-#notal{
-    display: none;
-    background-color: #d9d082;
-    padding: 1%;
-    margin-top: 3%;
-    border: 2px #1c83de solid;
-    border-radius: 4px;
+select:focus,
+input[type=text]:focus {
+	border-color: #ec1515;
 }
 
-p{
-    font-size:4vw;
-    color:#008078;
+#cronometro {
+	position: fixed;
+	top: 7.5%;
+	right: 0px;
+	background-color: royalblue;
+	font-weight: bold;
+	font-size: 4vw;
+	text-align: center;
+	color: lightcyan;
+	padding: 1%;
+	border: 2px deepskyblue solid;
+	border-radius: 4px;
+	margin: 0.5%;
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+#cronometro p {
+	margin: 0;
+}
+
+input[type=submit] {
+	width: 50%;
+	padding: 2% 0%;
+	border: 1px #24b4ee solid;
+	border-radius: 4px;
+	background-color: #f2eebb;
+	color: #ec1515;
+	font-size: 5vw;
+	text-align: center
+}
+
+#corregir {
+	text-align: center
+}
+
+#notal {
+	display: none;
+	background-color: #d9d082;
+	padding: 1%;
+	margin-top: 3%;
+	border: 2px #1c83de solid;
+	border-radius: 4px;
+}
+
+p {
+	font-size: 4vw;
+	color: #008078;
 }

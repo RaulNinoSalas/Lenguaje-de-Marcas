@@ -1,7 +1,6 @@
 {
 	"preguntes": {
-		"question": [
-			{
+		"question": [{
 				"type": "text",
 				"title": "¿Que ciclista campeón y condenado por dopping dijo \"El sufrimiento y el dolor son termporales. Rendirse es para siempre.\"?",
 				"answer": "Lance Amstrong",

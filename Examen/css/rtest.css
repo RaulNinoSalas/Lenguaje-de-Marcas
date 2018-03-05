@@ -1,108 +1,119 @@
-body,html{
-    margin:0px;
-    font-family: 'News Cycle', sans-serif;
-    font-size:20;
-    background-color:#f3d478;
+body,
+html {
+	margin: 0px;
+	font-family: 'News Cycle', sans-serif;
+	font-size: 20;
+	background-color: #f3d478;
 }
 
-body{
-    width:80%;
-    padding-left:10%;
-    padding-right:10%;
+body {
+	width: 80%;
+	padding-left: 10%;
+	padding-right: 10%;
 }
 
-#logo{
-    text-align: center;
-    width: 10%;
-    height: 100%;
-    padding: 2%;
-    background-color: #f3d478;
-} 
-#logoimg{
-    height: 100%;
+#logo {
+	text-align: center;
+	height: 100%;
+	padding: 3%;
+	background-color: #f3d478;
 }
 
-h4{
-    font-size:15;
-    color:#946a1f;
+#logoimg {
+	height: 100%;
+}
+form {
+	background-color: #eee3a9;
+	padding: 3%;
+	border: 2px #24b4ee solid;
+	border-radius: 4px;
+}
+h4 {
+	font-size: 15;
+	color: #946a1f;
 }
 
-input,select{width:50%}
-
-input[type=submit]{
-    width: 25%;
-    padding: 2% 0%;
-    border: 1px #24b4ee solid;
-    border-radius: 4px;
-    background-color: #f2eebb;
-    color: #ec1515;
-    font-size: 1.75vw;
-    text-align: center}
-
-input[type=checkbox]{width:5%;zoom:1.5}
-
-input[type=radio]{width:5%;zoom:1.25}
-
-form{
-    background-color:#eee3a9;
-    padding:3%;
-    border: 2px #24b4ee solid;
-    border-radius: 4px;
+input,
+select {
+	width: 50%
 }
 
-select, input[type=text] {
-    padding: 0.5%;
-    border: 1px #24b4ee solid;
-    border-radius: 4px;
-    background-color: #ecf191;
-    color: #ec1515;
-    font-size: 1.25vw;
-}
-
-label{
-    color: #ec1515;
-    font-size: 1.25vw;
-}
-
-select:focus,input[type=text]:focus{
-    border-color:#ec1515;
-}
-
-
-#temporizador{
-    position: fixed;
-    top: 0px;
-    right: 0px;
-    background-color: royalblue;
-    font-weight: bold;
+input[type=submit] {
+	width: 25%;
+	padding: 2% 0%;
+	border: 1px #24b4ee solid;
+	border-radius: 4px;
+	background-color: #f2eebb;
+	color: #ec1515;
 	font-size: 1.75vw;
-    text-align: center;
-    color: lightcyan;
-    padding: 1%;
-    border: 2px deepskyblue solid;
-    border-radius: 4px;
-    margin:0.5%;
-    overflow: hidden; 
-    opacity: 0.6; 
+	text-align: center
 }
 
-#temporizador p{
-    margin: 0;
+input[type=checkbox] {
+	width: 5%;
+	zoom: 1.5
 }
 
-#correccion{text-align: center}
-
-
-#nota{
-    display: none;
-    background-color: khaki;
-    padding: 1%;
-    margin-top: 5%;
-    border: 2px #1c83de solid;
-    border-radius: 4px;
+input[type=radio] {
+	width: 5%;
+	zoom: 1.25
 }
 
-p{
-    font-size:1.5vw;
-    color:#008078;
+select,
+input[type=text] {
+	padding: 0.5%;
+	border: 1px #24b4ee solid;
+	border-radius: 4px;
+	background-color: #ecf191;
+	color: #ec1515;
+	font-size: 1.25vw;
+}
+
+label {
+	color: #ec1515;
+	font-size: 1.25vw;
+}
+
+select:focus,
+input[type=text]:focus {
+	border-color: #ec1515;
+}
+
+#temporizador {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	background-color: royalblue;
+	font-weight: bold;
+	font-size: 1.75vw;
+	text-align: center;
+	color: lightcyan;
+	padding: 1%;
+	border: 2px deepskyblue solid;
+	border-radius: 4px;
+	margin: 0.5%;
+	overflow: hidden;
+	opacity: 0.6;
+}
+
+#temporizador p {
+	margin: 0;
+}
+
+#correccion {
+	text-align: center
+}
+
+#nota {
+	display: none;
+	background-color: khaki;
+	padding: 1%;
+	margin-top: 5%;
+	border: 2px #1c83de solid;
+	border-radius: 4px;
+}
+
+p {
+	font-size: 1.5vw;
+	color: #008078;
 }

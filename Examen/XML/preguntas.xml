@@ -11,11 +11,11 @@
 <question id="q002">
 <type>select</type>
     <title>"Si quieres ser el mejor, tienes que hacer cosas que otras personas no estan dispuestas a hacer"¿En que categorias olimpicas de natacion gano Michael Phelps?</title>
-    <option>200m y 400m cuatro estilos</option>
+    <option>300m y 500m cuatro estilos</option>
     <option>150m y 300m mariposa</option>
-    <option>Gano 25 medallas olimpicas pero no en natación</option>
+    <option>Gano 28 medallas olimpicas pero no en natación</option>
     <option>Era un pringado y no gano nada</option>
-    <answer>1</answer>
+    <answer>3</answer>
    
 </question>
 <question id="q003">
@@ -54,25 +54,21 @@
 <question id="q007">
     <type>radio</type>
     <title>"La perfeccion no es algo permamenente, solo un instante"¿Que hitos consiguio en la gimnasia Nadia Comaneci?</title>
-    <option>5 oros olimpicos</option>
+    <option>2 oros olimpicos</option>
     <option>Puntuacion de 10 en su ejercicio</option>
     <option>Ninguna</option>
     <option>Doblarse como una visagra</option>
-    <answer>1</answer>
     <answer>2</answer>
 </question>
 <question id="q008">
     <type>radio</type>
-    <title>"Creo que la suerte no cae solo en los valientes, sino tambien en los que creen en ella"¿Que campeonatos de Grand Slams ha ganado este tenista? </title>
+    <title>"Creo que la suerte no cae solo en los valientes, sino tambien en los que creen en ella"¿Que campeonatos de Grand Slams ha ganado Novak Djokovic? </title>
     <option>Open de Australia</option>
-    <option>Wimbledon</option>
-    <option>Open de Estados Unidos</option>
-    <option>Roland Garros</option>
+    <option>Abierto de Palma de Mallorca</option>
+    <option>10km marcha</option>
+    <option>Masters de Singapur</option>
     <option>La Copa del Rey</option>
     <answer>1</answer>
-    <answer>2</answer>
-    <answer>3</answer>
-    <answer>4</answer>
 </question>
 <question id="q009">
 <type>checkbox</type>

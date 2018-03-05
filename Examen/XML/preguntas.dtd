@@ -1,22 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml encoding="UTF-8"?>
 
 <!ELEMENT questions (question)+>
 <!ATTLIST questions
-  xmlns CDATA #FIXED ''>
-<!ELEMENT question (type,title,option*,answer+)>
+  xmlns CDATA #FIXED ''
+  xmlns:xsi CDATA #FIXED 'http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation NMTOKEN #REQUIRED>
+
+<!ELEMENT question (type+,title,option*,answer+)>
 <!ATTLIST question
   xmlns CDATA #FIXED ''
-  class NMTOKEN #IMPLIED
-  id NMTOKEN #IMPLIED>
+  id NMTOKEN #REQUIRED>
+
 <!ELEMENT type (#PCDATA)>
 <!ATTLIST type
   xmlns CDATA #FIXED ''>
+
 <!ELEMENT title (#PCDATA)>
 <!ATTLIST title
   xmlns CDATA #FIXED ''>
+
 <!ELEMENT option (#PCDATA)>
 <!ATTLIST option
   xmlns CDATA #FIXED ''>
+
 <!ELEMENT answer (#PCDATA)>
 <!ATTLIST answer
   xmlns CDATA #FIXED ''>

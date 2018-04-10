@@ -1,0 +1,19 @@
+body{font-family:'Roboto',sans-serif;background-color:#efe7ff}
+body,input,select,option,.btn{font-size:20px !important}
+#a{background:url('../img/f.jpg') 50% 50% no-repeat;background-size:cover;color:#fff}
+#b{background-color:rgba(42,39,48,0.5)}
+.footer{padding:50px 0 50px;margin-top:100px;color:#99979c;text-align:left;
+    background-color:#2a2730}
+.footer-links{padding-left:0;margin-bottom:20px}
+.footer-links li+li{margin-left:15px}
+.footer-links li{display:inline-block}
+.g{font-size:50px;padding-top:15px}
+.form-control{height:auto !important}
+#contenido{padding-right:0px}
+#publicidad{display:none}
+
+@media screen and (min-width: 768px){
+    #b{background-color:rgba(42,39,48,0.8)}    
+    #contenido{padding-right:336px}
+    #publicidad{position:absolute;background-color:white;right:0px;width:336px;display:block}
+}
